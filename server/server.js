@@ -4,7 +4,7 @@ const path = require('path');
 
 //para los socket se necesita crear un sevidor aparte  01
 const socketIO = require('socket.io');
-const http = require('https');
+const http = require('http');
 const app = express();
 let server = http.createServer(app); //colocamos la configuracion de espress en el servidor http 02
 
